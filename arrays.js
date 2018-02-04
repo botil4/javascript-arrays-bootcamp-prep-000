@@ -42,6 +42,9 @@ var grilledCheeseIngredients = [
         return array
       }
       
+      function accessElementInArray(array, index) {
+        return array[index]
+      }
       
       
       
