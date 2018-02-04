@@ -23,7 +23,7 @@ var grilledCheeseIngredients = [
       ]
       
       function addElementToBeginningOfArray(array, element) {
-        var arrayNew = ['element', ...array]
+        var arrayNew = [element, ...array]
         return arrayNew
       }
       
