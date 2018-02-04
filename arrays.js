@@ -28,5 +28,6 @@ var grilledCheeseIngredients = [
       }
       
       function destructivelyAddElementToBeginningOfArray(array, element) {
-        return array.unshift(element)
+        array = array.unshitft(element)
+        return array
       }
