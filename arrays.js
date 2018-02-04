@@ -31,3 +31,17 @@ var grilledCheeseIngredients = [
         array.unshift(element)
         return array
       }
+      
+      function addElementToEndOfArray(array, element) {
+        var arrayNew = [...array, element]
+        return arrayNew
+      }
+      
+      function destructivelyAddElementToEndOfArray(array, element) {
+        array.push(element)
+        return array
+      }
+      
+      
+      
+      
